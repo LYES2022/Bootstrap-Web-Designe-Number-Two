@@ -1,0 +1,19 @@
+.change-color {
+    color: #FFD500;
+}
+
+.navbar .container .collapse ul li a.active {
+    background-color: #FFD500;
+}
+.start #one.active {
+    background-color: #FFD500;
+}
+.sething {
+    border: 3px solid #FFD500;
+}
+.sething .seth {
+    background-color: #FFD500;
+}
+.carousel-indicators.start [data-bs-target].active {
+    background-color: #FFD500;
+}

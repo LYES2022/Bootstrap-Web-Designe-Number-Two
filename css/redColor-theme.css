@@ -1,0 +1,20 @@
+.change-color {
+    color: red;
+}
+
+.navbar .container .collapse ul li a.active {
+    background-color: red;
+}
+
+.start #one.active {
+    background-color: red;
+}
+.sething {
+    border: 3px solid red;
+}
+.sething .seth {
+    background-color: red;
+}
+.carousel-indicators.start [data-bs-target].active {
+    background-color: red;
+}

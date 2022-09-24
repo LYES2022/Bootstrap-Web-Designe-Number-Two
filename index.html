@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 3 Designe One From Elzero Web School</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/transition.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/redColor-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <div class="sething p-2">
+      <div class="seth position-absolute">
+        <i class="fa-solid fa-gear position-absolute"></i>
+      </div>
+      <div class="text">
+        <p class="text-capitalize fw-bold text-light mb-1">color option</p>
+        <div class="color d-flex justify-content-between align-items-center">
+          <span class="active" data-values="css/redColor-theme.css"></span>
+          <span data-values="css/violetColor-theme.css"></span>
+          <span data-values="css/blueColor-theme.css"></span>
+          <span data-values="css/yellowColor-theme.css"></span>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar p-1 p-md-0 navbar-expand-lg">
+      <div class="container text-capitalize">
+        <a class="navbar-brand fs-5 fw-bold" href="#"
+          >elzero
+          <span class="change-color">inc</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light d-block p-2 p-lg-3 back"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-block p-2 p-lg-3 back"  href="./about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-block p-2 p-lg-3 back" href="faq.html">faq</a>
+            </li>
+            <li class="nav-item dropdown position-relative">
+              <a
+                class="nav-link dropdown-toggle d-block p-2 p-lg-3 back"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item d-block" href="#">programming</a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-block" href="#">web designe</a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-block" href="#">desktop</a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-block pb-2 border-top" href="#"
+                    >web hosting</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-block p-2 p-lg-3 back" href="#">map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-block p-2 p-lg-3 back" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide d-none d-md-block"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators start">
+        <button id="one"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button id="one"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button id="one"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button id="one"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img src="./images/01.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block position-absolute">
+            <div class="inf">
+              <h5 class="fs-3 fw-500 text-capitalize mb-2">programming</h5>
+              <p class="">
+              Transition animations not supported in Internet Explorer 8 &
+              9Bootstrap exclusively uses CSS3 for its animations, but Internet
+              Explorer 8 & 9 don't support the necessary CSS properties. Thus,
+              there are no slide transition animations when using these
+              browsers. We have intentionally decided not to include
+              jQuery-based fallbacks for the transitions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="./images/02.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block position-absolute">
+            <div class="inf">
+              <h5 class="fs-3 fw-500 text-capitalize mb-2">web designe</h5>
+            <p class="">
+              Transition animations not supported in Internet Explorer 8 &
+              9Bootstrap exclusively uses CSS3 for its animations, but Internet
+              Explorer 8 & 9 don't support the necessary CSS properties. Thus,
+              there are no slide transition animations when using these
+              browsers. We have intentionally decided not to include
+              jQuery-based fallbacks for the transitions.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="./images/03.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block position-absolute">
+            <div class="inf">
+              <h5 class="fs-3 fw-500 text-capitalize mb-2">desktop</h5>
+            <p class="">
+              Transition animations not supported in Internet Explorer 8 &
+              9Bootstrap exclusively uses CSS3 for its animations, but Internet
+              Explorer 8 & 9 don't support the necessary CSS properties. Thus,
+              there are no slide transition animations when using these
+              browsers. We have intentionally decided not to include
+              jQuery-based fallbacks for the transitions.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="./images/04.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block position-absolute">
+            <div class="inf">
+              <h5 class="fs-3 fw-500 text-capitalize mb-2">web hosting</h5>
+            <p class="">
+              Transition animations not supported in Internet Explorer 8 &
+              9Bootstrap exclusively uses CSS3 for its animations, but Internet
+              Explorer 8 & 9 don't support the necessary CSS properties. Thus,
+              there are no slide transition animations when using these
+              browsers. We have intentionally decided not to include
+              jQuery-based fallbacks for the transitions.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end carousel -->
+    <!-- start spacial template -->
+    <div class="container">
+      <div class="row pt-5 pb-0 pb-md-5">
+        <div class="col">
+          <div class="spacial text-center pt-4 pb-4">
+            <h2 class="fs-3 mb-1">
+              Meet Our New Template <span class="change-color">Elzero Inc.</span>
+            </h2>
+            <p class="fs-6 text-black-50">
+              Hello Let Me Introduce Our Template Elzero Inc. Created With All
+              The Love With
+              <span class="fs-6 fw-bold text">Bootstrap</span> 3.2.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end spacial template -->
+    <!-- start our features -->
+    <div class="our-features text-center pt-5 pb-5">
+      <div class="container">
+        <div class="spacial">
+          <h2 class="text-capitalize fs-3 fw-600 mb-4">our features</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xl-3">
+            <div class="box mb-3 mb-xl-0 pt-2 pb-2 position-relative ">
+              <i class="fa-solid fa-check fs-2 text-black-50"></i>
+              <h3 class="text-capitalize mt-2 mb-2">100% responsive</h3>
+              <p class="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+            <div class="box mb-3 mb-xl-0 pt-2 pb-2 position-relative ">
+              <i class="fa-regular fa-thumbs-up fs-2 text-black-50"></i>
+              <h3 class="text-capitalize mt-2 mb-2">100% responsive</h3>
+              <p class="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="box mb-3 mb-xl-0 pt-2 pb-2 position-relative">
+              <i class="fa-regular fa-eye fs-2 text-black-50"></i>
+              <h3 class="text-capitalize mt-2 mb-2">100% responsive</h3>
+              <p class="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+            <div class="box mb-3 mb-xl-0 pt-2 pb-2 position-relative">
+              <i class="fa-solid fa-pencil fs-2 text-black-50"></i>
+              <h3 class="text-capitalize mt-2 mb-2">100% responsive</h3>
+              <p class="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our features-->
+    <!-- start our clients -->
+    <div class="our-clients pt-5 pb-5">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators final">
+            <div class="avatare" >
+              <img class="img-fluid active" src="./images/avatar_01.jpg" alt="" data-page=".slide-one" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            </div>
+            <div class="avatare " >
+              <img  src="./images/avatar_02.jpg" alt="" data-page=".slide-two" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+            </div>
+            <div class="avatare" >
+              <img src="./images/avatar_03.jpg" alt="" data-page=".slide-three" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+            </div>
+
+            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+
+            <div class="avatare" >
+              <img src="./images/avatar_04.jpg" alt="" data-page=".slide-four" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">
+            </div>  
+          </div>
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active slide-one mb-4">
+                <h5 class="fs-3 fw-600 mb-3">What Our Clients Say</h5>
+                 <p class="fs-6 lh-lg">
+                  Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+                  </p>
+                  <span class="fw-bold text-capitalize change-color">
+                    osama elzero
+                  </span>
+            </div>
+            <div class="carousel-item slide-two mb-4" >
+              <h5 class="fs-3 fw-600 mb-3">Whatis Our Clients Say</h5>
+            <p class="fs-6 lh-lg position-relative">
+              Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+            </p>
+            <span class="fw-bold text-capitalize change-color"
+              >hassan zohdy</span
+            >
+            
+            </div>
+            <div class="carousel-item slide-three mb-4">
+              <h5 class="fs-3 fw-600 mb-3">What Our Clients Say</h5>
+            <p class="fs-6 lh-lg position-relative">
+              
+              Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+            </p>
+            <span class="fw-bold change-color">hind ragab</span>
+            </div>
+            <div class="carousel-item slide-four mb-4">
+              <h5 class="fs-3 fw-600 mb-3">What Our Clients Say</h5>
+            <p class="fs-6 lh-lg position-relative">
+              Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+              
+            </p>
+            <span class="fw-bold change-color">zahra ahmad</span>
+            </div>
+          </div>
+          
+        </div>
+        <!-- <div class="images mx-100 ms-auto me-auto p-3 d-flex justify-content-between align-items-center">
+          <div class="avatare" >
+            <img class="img-fluid active" src="./images/avatar_01.jpg" alt="" data-page=".slide-one">
+          </div>
+          <div class="avatare " >
+            <img  src="./images/avatar_02.jpg" alt="" data-page=".slide-two">
+          </div>
+          <div class="avatare" >
+            <img src="./images/avatar_03.jpg" alt="" data-page=".slide-three">
+          </div>
+          <div class="avatare" >
+            <img src="./images/avatar_04.jpg" alt="" data-page=".slide-four">
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- end our clients -->
+    <!-- start our amazing price -->
+    <div class="our-amazing text-center pt-5 pb-5">
+      <div class="container">
+        <h5 class="fs-3 fw-500 text-capitalize mb-3">our amazing price</h5>
+        <div class="amazing-cont">
+          <div class="row">
+             <div class="col-md-6 col-xl-3 p-3">
+              <div class="box bg-light p-3 position-relative">
+                <h3 class="fs-5 fw-500 text-capitalize mb-0">hosting</h3>
+                <div class="number  ms-auto me-auto p-3 mt-2 mb-3 d-flex justify-content-center align-items-center">
+                  <span class="fs-2 fw-bold text-black-50 d-flex justify-content-center align-items-center transition">$40</span>
+                </div>
+                <ul class="list-unstyled text-capitalize fw-600">
+                  <li class="mb-2">space: 30 gb</li>
+                  <li class="mb-2">emails: 20</li>
+                  <li class="mb-2">ips: 2 ip</li>
+                  <li class="mb-2">databases: 10</li>
+                  <li class="mb-2">ftp acounts: 10</li>
+                </ul>
+                <button type="button" class="btn text-light">order now</button>
+              </div>
+             </div>
+             <div class="col-md-6 col-xl-3 p-3">
+              
+              <div class="box bg-light p-3">
+                <h3 class="fs-5 fw-500 text-capitalize mb-0">vps</h3>
+                <div class="number  ms-auto me-auto p-3 mt-2 mb-3 d-flex justify-content-center align-items-center">
+                  <span class="fs-2 fw-bold text-black-50 d-flex justify-content-center align-items-center transition">$50</span>
+                </div>
+                <ul class="list-unstyled text-capitalize fw-600">
+                  <li class="mb-2">space: 50 gb</li>
+                  <li class="mb-2">emails: 40</li>
+                  <li class="mb-2">ips: 5 ip</li>
+                  <li class="mb-2">databases: 20</li>
+                  <li class="mb-2">ftp acounts: 10</li>
+                </ul>
+                <button type="button" class="btn text-light">order now</button>
+              </div>
+             </div>
+             <div class="col-md-6 col-xl-3 p-3">
+
+              <div class="box bg-light p-3">
+                <h3 class="fs-5 fw-500 text-capitalize mb-0">dedicated</h3>
+                <div class="number  ms-auto me-auto p-3 mt-2 mb-3 d-flex justify-content-center align-items-center">
+                  <span class="fs-2 fw-bold text-black-50 d-flex justify-content-center align-items-center transition">$70</span>
+                </div>
+                <ul class="list-unstyled text-capitalize fw-600">
+                  <li class="mb-2">space: 80 gb</li>
+                  <li class="mb-2">emails: 40</li>
+                  <li class="mb-2">ips: 8 ip</li>
+                  <li class="mb-2">databases: 30</li>
+                  <li class="mb-2">ftp acounts: 20</li>
+                </ul>
+                <button type="button" class="btn text-light">order now</button>
+              </div>
+             </div>
+             <div class="col-md-6 col-xl-3 p-3">
+
+              <div class="box bg-light p-3">
+                <h3 class="fs-5 fw-500 text-capitalize mb-0">cloud</h3>
+                <div class="number  ms-auto me-auto p-3 mt-2 mb-3 d-flex justify-content-center align-items-center">
+                  <span class="fs-2 fw-bold text-black-50 d-flex justify-content-center align-items-center transition">$90</span>
+                </div>
+                <ul class="list-unstyled text-capitalize fw-600">
+                  <li class="mb-2">space: 90 gb</li>
+                  <li class="mb-2">emails: 50</li>
+                  <li class="mb-2">ips: 10 ip</li>
+                  <li class="mb-2">databases: 50</li>
+                  <li class="mb-2">ftp acounts: 50</li>
+                </ul>
+                <button type="button" class="btn text-light">order now</button>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our amazing price -->
+    <!-- start team -->
+    <div class="team text-center pt-5 pb-5 position-relative"> 
+      <div class="container position-relative">
+        <h5 class="fs-3 fw-500 text-capitalize mb-3 text-light">our amazing price</h5>
+        <div class="team-content">
+          <div class="row">
+            <div class="col-md-6 col-xl-3 text-light mb-4 mb-xl-0">
+              <div class="box text-capitalize">
+                <div class="image ms-auto me-auto">
+                  <img src="./images/chris.jpg " class="img-fluid" alt="">
+                </div>
+                <h3 class=" fs-6 mt-2 mb-2">Chris Coyier</h3>
+                <p class="">this Is Chris Coyier The Founder Of The Amazing Website Css-Tricks
+                </p>
+                <div class="icons mw-100 d-flex justify-content-between align-items-center ms-auto me-auto">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 text-light mb-4 mb-xl-0">
+              <div class="box text-capitalize">
+                <div class="image ms-auto me-auto">
+                  <img src="./images/leah.jpg " class="img-fluid" alt="">
+                </div>
+                <h3 class=" fs-6 mt-2 mb-2">Chris Coyier</h3>
+                <p class="">this Is Chris Coyier The Founder Of The Amazing Website Css-Tricks
+                </p>
+                <div class="icons mw-100 d-flex justify-content-between align-items-center ms-auto me-auto">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 text-light mb-4 mb-xl-0">
+              <div class="box text-capitalize">
+                <div class="image ms-auto me-auto">
+                  <img src="./images/steve.jpg " class="img-fluid" alt="">
+                </div>
+                <h3 class=" fs-6 mt-2 mb-2">Chris Coyier</h3>
+                <p class="">this Is Chris Coyier The Founder Of The Amazing Website Css-Tricks
+                </p>
+                <div class="icons mw-100 d-flex justify-content-between align-items-center ms-auto me-auto">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 text-light mb-4 mb-xl-0">
+              <div class="box text-capitalize">
+                <div class="image ms-auto me-auto">
+                  <img src="./images/marissa.jpg " class="img-fluid" alt="">
+                </div>
+                <h3 class=" fs-6 mt-2 mb-2">Chris Coyier</h3>
+                <p class="">this Is Chris Coyier The Founder Of The Amazing Website Css-Tricks
+                </p>
+                <div class="icons mw-100 d-flex justify-content-between align-items-center ms-auto me-auto">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end team -->
+    <!-- start touch -->
+    <div class="touch text-center pt-5 pb-5">
+      <div class="container transition">
+        <h3 class="fs-3 fw-500 text-capitalize mb-3 text-black-50">keep in touch</h3>
+        <p >
+          Sign Up For Newsletter Dont Worry About Spam We Hate It Too.
+        </p>
+        <div class="input-group mb-3 ms-auto me-auto mw-100 position-relative">
+          <input type="text" class="form-control text-capitalize text-black-50" placeholder="write your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+
+          <button class="btn ps-4 text-light position-relative text-capitalize" type="submit" id="button-addon2">subscribe</button>
+        </div>
+        
+      </div>
+    </div>
+    <!-- end touch -->
+    <!-- start statistique -->
+    <div class="statistique pt-5 pb-5 position-relative text-center">
+      <div class="container position-relative">
+        <h3 class="fs-3 fw-500 text-capitalize mb-5 ">our main statistiques</h3>
+          <div class="row ">
+            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="box d-flex justify-content-center flex-column align-items-center">
+                <i class="fa-solid fa-users text-light-50 fa-3x"></i>
+                <span>9,550</span>
+                <p>Satisfied Users</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="box d-flex justify-content-center flex-column align-items-center">
+                <i class="fa-solid fa-comments text-light-50 fa-3x"></i>
+                <span>9,550</span>
+                <p>Satisfied Users</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="box d-flex justify-content-center flex-column align-items-center">
+                <i class="fa-solid fa-suitcase text-light-50 fa-3x"></i>
+                <span>9,550</span>
+                <p>Satisfied Users</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+
+              <div class="box d-flex justify-content-center flex-column align-items-center">
+                <i class="fa-solid fa-support text-light-50 fa-3x"></i>
+                <span>9,550</span>
+                <p>Satisfied Users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end statistique -->
+    <!-- start our skills -->
+    <div class="our-skills pt-5 pb-5 ">
+      <div class="container">
+        <h3 class="fs-3 fw-500 text-capitalize text-center mb-5 ">our skills</h3>
+        <div class="row d-flex justify-content-between ">
+          <div class="col-md-5 prog">
+            <div class="progress mb-3">
+              <div class="progress-bar ps-3 progress-bar-striped text-uppercase text-start " role="progressbar" aria-label="Default striped example text-start"  style="width: 85%" data-value="85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">html5 / css3</div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar ps-3 progress-bar-striped text-start" role="progressbar" aria-label="Success striped example" style="width: 90%" data-value="90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">php / my sql</div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar ps-3 progress-bar-striped text-start" role="progressbar" aria-label="Info striped example" style="width: 70%" data-value="70" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Javascript / jQuery</div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar ps-3 progress-bar-striped text-start " role="progressbar" aria-label="Warning striped example" style="width: 95%" data-value="95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Wordpress</div>
+            </div>
+          </div>
+          <div class="col-md-6 col prog">
+
+            <h3 class="text-capitalize fs-5 fw-600">about the team</h3>
+            <p class="">
+              We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True
+            </p>
+            <button type="button" class="btn btn-sm text-light text-capitalize">talk with a profissional</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start contact -->
+    <div class="contact pt-5 pb-5 position-relative">
+      <div class="container position-relative">
+        <div class="tell-me text-center text-capitalize ">
+          <i class="fa-solid fa-headphones-simple fa-3x mb-4"></i>
+          <h3 class="fs-2">Tell Us What You Fell
+          </h3>
+          <p class="fs-6">feel free To Contact Us Anytime</p>
+        </div>
+          <div class="row">
+            <div class="col-md-6 user ">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="username">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+              </div>
+              <div class="mb-3">
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="cell phone">
+              </div>
+            </div>
+            <div class="col-md-6 user ">
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="your message"></textarea>
+                <button type="button" class="btn btn-sm text-light text-capitalize w-100">contact us</button>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start market -->
+    <div class="market pt-4 pb-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="marke col-sm-4 col-lg-2 mb-4 mb-lg-0">
+            <div class="image">
+              <img src="./images/our-clients/bbc.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class=" marke col-sm-4 col-lg-2 mb-4 mb-lg-0">
+            <div class="image">
+              <img src="./images/our-clients/cnn.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="marke col-sm-4 col-lg-2 mb-4 mb-lg-0">
+            <div class="image">
+              <img src="./images/our-clients/forbes.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="marke col-sm-4 col-lg-2 mb-4 mb-lg-0">
+            <div class="image">
+              <img src="./images/our-clients/techradar.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="marke col-sm-4 col-lg-2 mb-4 mb-lg-0">
+            <div class="image">
+              <img src="./images/our-clients/wired.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="marke col-sm-4 col-lg-2 mb-4 mb-lg-0">
+            <div class="image">
+              <img src="./images/our-clients/wsj.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end market -->
+    <!-- start article -->
+    <div class="article pt-5 pb-2 text-capitalize">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-between ">
+          <div class="col-md-6 col-lg-6 col-xl-3 mb-3">
+            <h3 class="fs-5 change-color">sitemap</h3>
+            <div class="nav d-flex justify-content-between align-items-center mt-4 mb-3">
+              <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>company</li>
+              </ul>
+              <ul>
+                <li>about</li>
+                <li>designe</li>
+                <li>sitemap</li>
+              </ul>
+              <ul>
+                <li>company</li>
+                <li>host</li>
+                <li>contact</li>
+              </ul>
+            </div>
+            <div class="icon d-flex flex-wrap">
+              <div class="image me-1">
+                <img src="./images/social-bookmarks/facebook.png" alt="">
+              </div>
+              <div class="image me-1">
+                <img src="./images/social-bookmarks/gplus.png" alt="">
+              </div>
+              <div class="image me-1">
+                <img src="./images/social-bookmarks/twitter.png" alt="">
+              </div>
+              <div class="image me-1">
+                <img src="./images/social-bookmarks/pinterest.png" alt="">
+              </div>
+              <div class="image me-1">
+                <img src="./images/social-bookmarks/rss.png" alt="">
+              </div>
+              <div class="image me-1">
+                <img src="./images/social-bookmarks/email.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4 mb-3">
+
+            <h3 class="fs-5 mb-3 change-color">latest articles</h3>
+            <div class="content text-center text-md-start">
+              <div class="text d-flex flex-column flex-sm-row justify-content-between align-items-center mb-2">
+                <div class="image mb-3 mb-sm-0">
+                  <img src="./images/articles/01.jpg" alt="">
+                </div>
+                <div class="info ms-2">
+                  <h2 class="mb-1">programming</h2>
+                  <p class="mb-0">
+                    this some text about programming describe the media of bootstrap 5.6.1
+                  </p>
+                </div>
+              </div>
+              <div class="text d-flex flex-column flex-sm-row justify-content-between align-items-center mb-2">
+
+                <div class="image mb-3 mb-sm-0">
+                  <img src="./images/articles/02.jpg" alt="">
+                </div>
+                <div class="info ms-2">
+                  <h2 class="mb-1">codding</h2>
+                  <p class="mb-0">
+                    this some text about programming describe the media of bootstrap 5.6.1
+                  </p>
+                </div>
+              </div>
+              <div class="text d-flex flex-column flex-sm-row justify-content-between align-items-center mb-2">
+
+                <div class="image mb-3 mb-sm-0">
+                  <img src="./images/articles/03.jpg" alt="">
+                </div>
+                <div class="info ms-2">
+                  <h2 class="mb-1">web designe</h2>
+                  <p class="mb-0">
+                    this some text about programming describe the media of bootstrap 5.6.1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-lg-8 col-xl-3 mb-3">
+            <h3 class="fs-6 mb-3 change-color">our awesome work</h3>
+            <div class="row d-flex justify-content-between flex-wrap m-0 ">
+              <div class="images d-flex justify-content-center align-items-center mb-1" >
+                <img src="./images/work/01.jpg" class="w-100 img-fluid" alt="">
+              </div>
+              <div class="images d-flex justify-content-center align-items-center mb-1">
+                <img src="./images/work/02.jpg" class="w-100 img-fluid" alt="">
+              </div>
+              <div class="images d-flex justify-content-center align-items-center mb-1">
+                <img src="./images/work/03.jpg" class="w-100 img-fluid" alt="">
+              </div>
+              <div class="images d-flex justify-content-center align-items-center mb-1">
+                <img src="./images/work/04.jpg" class="w-100 img-fluid " alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end article -->
+    <!-- start footer -->
+    <footer class="pt-2 pb-2">
+      <div class="container text-center">
+        <p class="m-0" >Copyright © 2014 from <span class="text-capitalize fw-bold change-color">elzero web school</span> by SAADOUDI LYES</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <div class="loading-screen ">
+      <span class="balance"></span>
+      <span></span>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.change-color {
+    color: #E426D5;
+}
+
+.navbar .container .collapse ul li a.active {
+    background-color: #E426D5;
+}
+.start #one.active {
+    background-color: #E426D5;
+}
+.sething {
+    border: 3px solid #E426D5;
+}
+.sething .seth {
+    background-color: #E426D5;
+}
+.carousel-indicators.start [data-bs-target].active {
+    background-color: #E426D5;
+}

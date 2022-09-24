@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --featuresColor: #EEEEEE;
+}
+body {
+    scroll-behavior: smooth;
+}
+.historique {
+    background-color: var(--featuresColor);
+}
+.historique .container li {
+    font-size: 16px;
+}
+
+/******************* start about ****************** */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(59 55 55 / 36%);
+    height: 65px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.about hr {
+    width: 70%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.about .container .create {
+    width: 800px;
+}
+.about .image {
+    border: 1px solid #3333332b;
+    border-radius: 2px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.about .user h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.about .user p {
+    font-size: 15px;
+}
+/******************* end about ****************** */
+
+/***************** start help ************************ */
+.help {
+    background-color: var(--featuresColor);
+}
+.help .btn {
+    font-size: 18px;
+    background-color: #333333;
+}
+.help p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #777;
+}
+/***************** end help ************************ */
+

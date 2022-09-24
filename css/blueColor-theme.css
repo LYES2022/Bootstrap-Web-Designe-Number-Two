@@ -1,0 +1,19 @@
+.change-color {
+    color: #428BCA;
+}
+
+.navbar .container .collapse ul li a.active {
+    background-color: #428BCA;
+}
+.start #one.active {
+    background-color: #428BCA;
+}
+.sething {
+    border: 3px solid #428BCA;
+}
+.sething .seth {
+    background-color: #428BCA;
+}
+.carousel-indicators.start [data-bs-target].active {
+    background-color: #428BCA;
+}
